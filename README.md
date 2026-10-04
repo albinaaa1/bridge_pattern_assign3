@@ -3,7 +3,7 @@
 * **Student Name:** Onlasyn Albina Adiletqyzy
 * **Group:** SE-2527
 * **Topic:** Option B — Notifications
-* **Repository URL:** https://github.com/albinaaa1/bridge_pattern_ass3
+* **Repository URL:** https://github.com/albinaaa1/bridge_pattern_ass3](https://github.com/albinaaa1/bridge_pattern_assign3)
 
 ---
 
