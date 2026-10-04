@@ -1,0 +1,12 @@
+T1 PASS | Reminder + EmailChannel | result=[Email Envelope] Reminder: Meeting at 3 PM
+T2 PASS | Reminder + SmsChannel | result=SMS: Reminder: Meeting at 3 PM
+T3 PASS | UrgentAlert + EmailChannel | result=[Email Envelope] URGENT: Server down!
+T4 PASS | UrgentAlert + SmsChannel | result=SMS: URGENT: Server down!
+T5 PASS sameObject=true | stateUnchanged=true
+  before=[Email Envelope] Reminder: Pay electricity bill
+  after=SMS: Reminder: Pay electricity bill
+T6 PASS | Reminder + PushChannel | result=[Push Envelope] Reminder: Doctor appointment
+T7 PASS | UrgentAlert + PushChannel | result=[Push Envelope] URGENT: Security breach!
+SUMMARY: 7/7 PASS
+
+Process finished with exit code 0
